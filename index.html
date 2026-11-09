@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buscador de repositorios de GitHub</title>
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <div class="contenedor">
+    <!-- Logo y título -->
+    <div class="titulo">
+      <div class="logo"><img src="git.png" alt="logo git"></div>
+      <h1>Buscador de repositorios de GitHub</h1>
+    </div>
+
+    <!-- Selector de lenguaje -->
+    <select id="lenguaje">
+      <option value="">Selecciona un lenguaje</option>
+      <option value="JavaScript">JavaScript</option>
+      <option value="Python">Python</option>
+      <option value="Java">Java</option>
+      <option value="PHP">PHP</option>
+    </select>
+
+    <!-- Aquí el JS muestra mensajes, errores o el repositorio -->
+    <div id="contenido"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
